@@ -1,10 +1,80 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  border: 0;
+  padding: 0; 
+}
+
+/* h1::after {
+    content: '';
+    width: 400px;
+    height: 4px;
+    display: block;
+    background: #22D4FD;
+    margin: 0 auto;
+    
+} */
+body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
+    
 
 }
 
-strong {
+.titulo-destaque {
     color: #22D4FD;
+}
+
+.apresentacao {
+    
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    width: 615px;
+    height: 482px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.tamanho-da-foto {
+    width: 488px;
+    height: 550px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    font-size: 24px;
+    text-align: center;
+     border-radius: 16px; /*deixa o botão redondo */
+    padding: 22.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }

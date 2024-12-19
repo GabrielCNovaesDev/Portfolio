@@ -2,45 +2,27 @@
 
 * {
   margin: 0;
-  border: 0;
   padding: 0; 
 }
 
-/* h1::after {
-    content: '';
-    width: 400px;
-    height: 4px;
-    display: block;
-    background: #22D4FD;
-    margin: 0 auto;
-    
-} */
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
-    
-
 }
-
 .titulo-destaque {
     color: #22D4FD;
 }
-
 .apresentacao {
-    
-    margin: 10% 20%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
 
 .apresentacao__conteudo {
     display: flex;
     width: 615px;
-    height: 482px;
     flex-direction: column;
     gap: 40px;
 }
@@ -55,6 +37,26 @@ body {
     font-family: "Krona One", sans-serif;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+    
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
@@ -64,17 +66,48 @@ body {
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
+    
+}
+
+.apresentacao__links__subtitulo{
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
 }
 
 .apresentacao__links__link {
-    background-color: #22D4FD;
-    width: 280px;
+    display: flex;
+    background-color: #000000;
+    width: 378px;
     font-size: 24px;
     text-align: center;
-     border-radius: 16px; /*deixa o botão redondo */
+    border-radius: 8px; 
     padding: 22.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    border: 2px solid #22D4FD;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+
+}
+
+.rodape {
+    padding: 24px;
+    background-color: #22D4FD;
+    color:#000000;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+
 }

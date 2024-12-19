@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre Mim</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Back-end de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__paragrafo">Olá! Sou Gabriel Henrique, desenvolvedor Backend com especialidade em SpringBoot, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/gabrielnovaesdev/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/GabrielCNovaesDev">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/GabrielCNovaesDev">
+                    <img src="/assets/github.png" alt="logo github">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/gabriel-henrique-costa-novaes-b45b091a4/">
+                    <img src="assets/linkedin.png" alt="logo linkedin">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://www.instagram.com/gabrielnovaesdev/">
+                    <img src="assets/instagram.png" alt="logo instagram">
+                    Instagram
+                </a>
             </div>
             
         </section>
-        <img src="html-logo-main/fotogithub2.jpg" alt="Foto de gabriel" class="tamanho-da-foto">
+        <img src="assets/fotogithub2.jpg" alt="Foto de gabriel" class="tamanho-da-foto">
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Gabriel</p>
     </footer>
 </body>
 </html>
